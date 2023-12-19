@@ -74,7 +74,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v5
         with:
-          images: tileonjvr/docker-ci-automation,ghcr.io/tileonjvr/docker-ci-automation
+          images: tileonjvr/docker-ci-automation,ghcr.io/leonjvr/docker-ci-automation
           flavor: |
             latest=false
           tags: |
